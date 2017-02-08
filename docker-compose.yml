@@ -2,7 +2,7 @@ version: '2'
 
 services:
   hello-app:
-    image: gsengun/devops-summit-demo-app-2017:1.0
+    image: gsengun/devops-summit-demo-app-2017:1.1
     build:
       context: .
       dockerfile: Dockerfile
